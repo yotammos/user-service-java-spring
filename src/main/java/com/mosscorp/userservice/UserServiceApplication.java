@@ -1,4 +1,4 @@
-package com.mosscorp.mooer.userservice;
+package com.mosscorp.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

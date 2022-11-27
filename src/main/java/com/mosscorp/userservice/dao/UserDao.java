@@ -1,6 +1,6 @@
-package com.mosscorp.mooer.userservice.dao;
+package com.mosscorp.userservice.dao;
 
-import com.mosscorp.mooer.userservice.model.User;
+import com.mosscorp.userservice.model.User;
 
 import java.util.List;
 

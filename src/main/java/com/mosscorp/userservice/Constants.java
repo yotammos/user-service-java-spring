@@ -1,4 +1,4 @@
-package com.mosscorp.mooer.userservice;
+package com.mosscorp.userservice;
 
 public class Constants {
 

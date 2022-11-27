@@ -1,8 +1,8 @@
-package com.mosscorp.mooer.userservice.dao.impl;
+package com.mosscorp.userservice.dao.impl;
 
-import com.mosscorp.mooer.userservice.dao.UserDao;
-import com.mosscorp.mooer.userservice.exception.UserNotFoundException;
-import com.mosscorp.mooer.userservice.model.User;
+import com.mosscorp.userservice.dao.UserDao;
+import com.mosscorp.userservice.exception.UserNotFoundException;
+import com.mosscorp.userservice.model.User;
 import org.springframework.stereotype.Component;
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.regions.Region;
@@ -17,11 +17,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static com.mosscorp.mooer.userservice.Constants.ACCESS_TOKEN;
-import static com.mosscorp.mooer.userservice.Constants.ID_FIELD;
-import static com.mosscorp.mooer.userservice.Constants.NAME_FIELD;
-import static com.mosscorp.mooer.userservice.Constants.SECRET_TOKEN;
-import static com.mosscorp.mooer.userservice.Constants.TABLE_NAME;
+import static com.mosscorp.userservice.Constants.ACCESS_TOKEN;
+import static com.mosscorp.userservice.Constants.ID_FIELD;
+import static com.mosscorp.userservice.Constants.NAME_FIELD;
+import static com.mosscorp.userservice.Constants.SECRET_TOKEN;
+import static com.mosscorp.userservice.Constants.TABLE_NAME;
 
 @Component
 public class DynamoDBUserDao implements UserDao {

@@ -1,10 +1,9 @@
-package com.mosscorp.mooer.userservice.controller;
+package com.mosscorp.userservice.controller;
 
-import com.mosscorp.mooer.userservice.dao.UserDao;
-import com.mosscorp.mooer.userservice.dao.impl.DynamoDBUserDao;
-import com.mosscorp.mooer.userservice.exception.UserNotFoundException;
-import com.mosscorp.mooer.userservice.model.CreateUserRequest;
-import com.mosscorp.mooer.userservice.model.User;
+import com.mosscorp.userservice.dao.UserDao;
+import com.mosscorp.userservice.exception.UserNotFoundException;
+import com.mosscorp.userservice.model.CreateUserRequest;
+import com.mosscorp.userservice.model.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
